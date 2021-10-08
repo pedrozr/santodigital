@@ -122,6 +122,9 @@ a:last-child {
   letter-spacing: 3px;
   margin-left: 32px;
 }
+#login_li {
+    margin-left: 100px;
+}
 
 .mobile-menu {
   display: none;

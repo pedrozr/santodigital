@@ -45,6 +45,9 @@ main {
   align-items: center;
   flex-wrap: wrap;
 }
+#login_title {
+    font-size: 40px;
+}
 .titulo{
  font-size: 44px; 
  margin-bottom: 7px;
@@ -135,6 +138,9 @@ a:last-child {
 .nav-list li {
   letter-spacing: 3px;
   margin-left: 32px;
+}
+#login_li {
+    margin-left: 100px;
 }
 
 .mobile-menu {
