@@ -2,10 +2,10 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./styles/forms.css" />
-        <title>Cadastrar Cliente</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./styles/admin.css" />
+        <title>Admistração</title>
     </head>
     <body>
     <header>
@@ -28,19 +28,18 @@
         <section class="conteudo">
             <div class="div_section">
                 <h1 class="titulo">
-                    Cadastro de Cliente
+                    Admistração
                 </h1>
                 <div class="inputs">
-                    <form>
-                        <div class="field" id="first_field">
-                            <label>Nome do Cliente:</label><br>
-                            <input class="input_text" type="text" value="" name="nome" placeholder="Digite um nome aqui"/><br>
+                    <form action="" method="post">
+                        <div class="div_buttons">
+                            <a href="./signup_client.html">
+                                <input class="button" type="submit" value="Cadastrar Cliente" name="submit" id=""/></a>
+                            <a href="./signup_employee.html">
+                                <input class="button" type="submit" value="Cadastrar Funcionário" name="submit" id=""/></a>
+                            <a href="#">
+                                <input class="button" type="submit" value="Banco de Dados" name="submit" id=""/></a>
                         </div>
-                        <div class="field">
-                            <label>Telefone:</label><br>
-                            <input class="input_text" type="text" value="" name="phone" placeholder="Ex:.(DDD) 99999-9999"/><br>
-                        </div>
-                        <input class="button" type="submit" value="Cadastrar" name="submit" id=""/>
                     </form>
                 </div>
             </div>
