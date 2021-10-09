@@ -24,7 +24,7 @@
                 <li><a href="./index.php">Início</a></li>
                 <li><a href="./admin.php">Admistração</a></li>
                 <li><a href="./contact.php">Contato</a></li>
-                <li><a id="login_li" href="./login_employee.php">Entrar</a></li>
+                <li><a id="login_li" href="./logout.php" color="red">Sair</a></li>
             </ul>
         </nav>
     </header>
@@ -73,3 +73,4 @@
     </footer>
     </body>
 </html>
+
