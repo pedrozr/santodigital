@@ -10,6 +10,7 @@ $result = mysqli_query($connection, "SELECT * FROM clientes");
 <head>
 	<title>MOSTRAR CLIENTES</title>
     <link rel="stylesheet" href="./styles/home.css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 </head>
 
 <body>
@@ -30,7 +31,7 @@ $result = mysqli_query($connection, "SELECT * FROM clientes");
         </nav>
     </header>
 	
-	<table width='80%' border=0>
+	<table class="table table-hover" width='80%' border=0>
 		<tr bgcolor='#CCCCCC'>
 			<td>Id</td>
 			<td>Data de Criação</td>
