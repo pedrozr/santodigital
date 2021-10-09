@@ -25,13 +25,12 @@ a:hover {
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #001BB7;
-  height: 8vh;
-  padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #001BB7;
+    height: 8vh;
+    padding: 15px;
 }
 
 main {
@@ -99,6 +98,7 @@ a:last-child {
     border: none;
     border-radius: 10px;
     margin: 50px 0 0 0;
+    padding: 0 5px 0 5px;
     width: 100%;
     line-height: 3;
 }
@@ -197,16 +197,16 @@ a:last-child {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
-
 footer{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   color: #fff;
   background: #001BB7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position:absolute;
-  width:100%;
-  height: 20px;
+  width: 100%;
+  font-size: 11px;
+  line-height: 25px;
 }
 footer > p {
     opacity: 0.8;
