@@ -19,3 +19,5 @@ create table `Usuarios` (
   `senha` varchar(255) NOT NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB;
+
+INSERT INTO usuarios(login_usuario, nome_usuario, senha) VALUES ('admin', 'admin', 'admin');
