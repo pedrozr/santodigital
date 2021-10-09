@@ -38,7 +38,7 @@
                     <form action="cadastrarCliente.php" method="POST">
                         <div class="field" id="first_field">
                             <label>Código do Cliente:</label><br>
-                            <input class="input_text" type="text" value="" name="codigo" placeholder="Coloque um código"/><br>
+                            <input class="input_text" type="text" value="" name="codigo" placeholder="Digite um código válido"/><br>
                         </div>
                         <div class="field" id="first_field">
                             <label>Nome do Cliente:</label><br>
