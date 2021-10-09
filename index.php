@@ -42,7 +42,7 @@
                 </p>
                 <button class="button">Saiba Mais</button>
             </div>
-            <img id="img_inicio" src="../images/Sodit-cloud-computing-icon-cloud 1@2x.png" alt="Imagem ilustrativa de cloud computing ">
+            <img id="img_inicio" src="./images/Sodit-cloud-computing-icon-cloud 1@2x.png" alt="Imagem ilustrativa de cloud computing ">
         </section>
     </main>
     <footer>
