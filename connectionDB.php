@@ -1,5 +1,5 @@
 <?php
-define('HOST', 'localhost');
+define('HOST', '10.24.176.3');
 define('USUARIO', 'root');
 define('SENHA', '');
 define('DB', 'techeducation');
